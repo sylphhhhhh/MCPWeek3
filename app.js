@@ -11,14 +11,6 @@ function App() {
     setCount(count > 0 ? count - 1 : 0);
   };
 
-  const handleNameChange = (event) => {
-    setName(event.target.value || 'Anonymous');
-  };
-
-  const handlePassValue = () => {
-    alert(`Your name is: ${name} and your count is: ${count}`);
-  };
-
   return (
     <div style={{ textAlign: 'center', alignItems:'center', padding: '20px' }}>
       <h1>Halo nama ku, Anonymous</h1>
